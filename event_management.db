@@ -1,0 +1,20 @@
+-- Create the Vendor Login table
+CREATE TABLE vendor_login (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL
+);
+
+-- Create the Admin Login table
+CREATE TABLE admin_login (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL
+);
+
+-- Create the User Login table
+CREATE TABLE user_login (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL
+);

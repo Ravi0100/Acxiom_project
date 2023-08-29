@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Portal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .header {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #ecf0f1;
+            color: #333;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .actions a, .actions button {
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            padding: 10px 20px;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .actions a:hover, .actions button:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        .logout-button {
+            background-color: #e74c3c;
+            border-color: #e74c3c;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the User Portal</h1>
+    </div>
+    <div class="container">
+        <h2>Vendor Attributes</h2>
+        <select id="vendorCategory">
+            <option value="catering">Catering</option>
+            <option value="florist">Florist</option>
+            <option value="decoration">Decoration</option>
+            <option value="lighting">Lighting</option>
+        </select>
+        
+        <h2>Actions</h2>
+        <div class="actions">
+            <a href="#">Cart</a>
+            <a href="#">Guest List</a>
+            <a href="#">Order List</a>
+        </div>
+    </div>
+    <div class="actions" style="padding: 20px;">
+        <button class="logout-button">Log Out</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* Global styles */
+/* ... (same as before) */
+
+/* Login page styles */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-card h2 {
+    color: #333;
+}
+
+.login-card form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-card label {
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-card input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-card button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-card button:hover {
+    background-color: #555;
+}
